@@ -9,6 +9,7 @@ ENV DOCKER_CHANNEL=stable \
 RUN apk --update --no-cache add \
         bash \
         curl \
+        make \
         device-mapper \
         py-pip \
         iptables \
